@@ -69,7 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         obscureText: true,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return 'Password cannot be empty';
+                            return 'Password tidak boleh kosong';
                           } else
                             return null;
                         },
